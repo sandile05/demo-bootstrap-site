@@ -46,11 +46,11 @@ a{
 }
 
 .mt-100{
-    margin-top: 100;
+    margin-top: 100px;
 }
 
 .mt-70{
-    margin-top: 70;
+    margin-top: 70px;
 }
 /* navigation  */
 .navbar-nav .nav-item{
@@ -118,5 +118,5 @@ nav.stick{
     color: #fff;
 }
 .wrap h2{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
