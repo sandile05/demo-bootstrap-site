@@ -120,3 +120,22 @@ nav.stick{
 .wrap h2{
     margin-bottom: 10px;
 }
+
+/* services  */
+
+.service-show{
+    text-align: center;
+}
+
+.service-class .card{
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.service-class i{
+    font-size: 50px;
+    background: linear-gradient(var(--pink-color), black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
