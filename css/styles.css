@@ -99,3 +99,24 @@ nav.stick{
 .hero-content{
     color: #fff;
 }
+
+/* about section  */
+
+.about-class{
+    margin-top: -200px;
+}
+.about-content{
+    background: linear-gradient(135deg, var(--blue-color), var(--pink-color));
+}
+
+.wrap{
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.wrap p, .wrap h2{
+    color: #fff;
+}
+.wrap h2{
+    margin-bottom: 20px;
+}
