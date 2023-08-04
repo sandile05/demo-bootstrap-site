@@ -168,3 +168,22 @@ nav.stick{
     z-index: -1;
     background: linear-gradient(135deg, var(--blue-color), var(--pink-color));
 }
+
+/* projects */
+
+.project-class i{
+    font-size: 50px;
+    background: linear-gradient(var(--pink-color), black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0 5px 20px;
+}
+
+.project-class .col-lg-3{
+    padding: 0;
+}
+
+.project-class .card{
+    margin-right: 10px;
+}
