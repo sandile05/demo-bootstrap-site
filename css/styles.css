@@ -52,6 +52,40 @@ a{
 .mt-70{
     margin-top: 70;
 }
+/* navigation  */
+.navbar-nav .nav-item{
+    margin: 0 10px;
+}
+
+nav .nav-item .nav-link {
+    color: #fff; /* White color initially */
+}
+
+nav .navbar-brand {
+    color: #fff; /* White color initially */
+}
+
+nav.stickyadd{
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all 0.5s;
+}
+nav.stickyadd .nav-item .nav-link{
+    color: rgba(0, 0, 0, 0.7);
+}
+nav.stickyadd .navbar-brand{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+nav.stick{
+    transition: all 0.5s;
+}
+.hamburger{
+    color: white;
+    font-size: 1.5rem;
+}
+.hamburger.scrolled{
+    color: #000;
+}
 
 /* hero section  */
 
