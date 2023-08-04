@@ -139,3 +139,32 @@ nav.stick{
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* team section  */
+.team-class{
+    z-index: 3;
+    padding: 100px;
+}
+.team-class .bg-white{
+    background: #fff;
+}
+
+.team-content{
+    padding: 15px;
+}
+
+.team-class .box{
+    position: relative;
+    z-index: 1;
+}
+
+.team-class .box::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+    background: linear-gradient(135deg, var(--blue-color), var(--pink-color));
+}
