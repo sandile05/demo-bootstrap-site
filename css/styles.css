@@ -187,3 +187,11 @@ nav.stick{
 .project-class .card{
     margin-right: 10px;
 }
+
+/* contact section  */
+
+
+form{
+    background: red;
+    padding: 20px;
+}
